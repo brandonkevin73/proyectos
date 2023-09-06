@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Programa Encriptador</title>
+</head>
+<body>
+    <header>
+        <h1>Encriptador</h1>
+
+    </header>
+    <main>
+        <section>
+            <textarea class="text-area" id="" cols="30" rows="10" placeholder="Ingrese el texto aqui..."></textarea>
+            <div>
+                <h5>Solo letras minisculas y sin acéntos</h5>
+            </div>
+            <div class="button">
+                <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+        <section>
+            <textarea class="mensaje" cols="20" rows="10" placeholder="salida de texto"></textarea>
+            <div>
+                <button class="btn-copiar" onclick="btnCopiar()">Copiar</button>
+
+            </div>
+        </section>
+    </main>
+    <script src="/script.js"></script>
+</body>
+</html>
